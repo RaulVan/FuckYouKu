@@ -1,0 +1,13 @@
+PODS:
+  - WebViewJavascriptBridge (5.0.5)
+  - YouTuEngineMediaPlayer (2016.07.14):
+    - WebViewJavascriptBridge
+
+DEPENDENCIES:
+  - YouTuEngineMediaPlayer (~> 2016.07.14)
+
+SPEC CHECKSUMS:
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
+  YouTuEngineMediaPlayer: 24a01925406388307ec58d44fa82f13be2e5ad67
+
+COCOAPODS: 0.39.0

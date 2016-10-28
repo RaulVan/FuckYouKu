@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4863EA26182FC49389490D41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B636362AA5D3A9A685DBC5 /* libPods.a */; };
+		ED872ED11DC1EF2F00704CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872ED01DC1EF2F00704CE6 /* main.m */; };
+		ED872ED41DC1EF2F00704CE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872ED31DC1EF2F00704CE6 /* AppDelegate.m */; };
+		ED872ED71DC1EF2F00704CE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872ED61DC1EF2F00704CE6 /* ViewController.m */; };
+		ED872EDA1DC1EF2F00704CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED872ED81DC1EF2F00704CE6 /* Main.storyboard */; };
+		ED872EDC1DC1EF2F00704CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED872EDB1DC1EF2F00704CE6 /* Assets.xcassets */; };
+		ED872EDF1DC1EF2F00704CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED872EDD1DC1EF2F00704CE6 /* LaunchScreen.storyboard */; };
+		ED872EEA1DC1EF2F00704CE6 /* FuckYouKuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872EE91DC1EF2F00704CE6 /* FuckYouKuTests.m */; };
+		ED872EF51DC1EF2F00704CE6 /* FuckYouKuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872EF41DC1EF2F00704CE6 /* FuckYouKuUITests.m */; };
+		ED872F0F1DC2287B00704CE6 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F081DC2287B00704CE6 /* CYLPlusButton.m */; };
+		ED872F101DC2287B00704CE6 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F0A1DC2287B00704CE6 /* CYLTabBar.m */; };
+		ED872F111DC2287B00704CE6 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F0C1DC2287B00704CE6 /* CYLTabBarController.m */; };
+		ED872F121DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F0E1DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		ED872F151DC2288500704CE6 /* PorxyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F141DC2288500704CE6 /* PorxyNavigationController.m */; };
+		ED872F171DC2288F00704CE6 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F161DC2288F00704CE6 /* CYLTabBarControllerConfig.m */; };
+		ED872F2B1DC2289F00704CE6 /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F1C1DC2289F00704CE6 /* CYLHomeViewController.m */; };
+		ED872F2C1DC2289F00704CE6 /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F1F1DC2289F00704CE6 /* CYLMessageViewController.m */; };
+		ED872F2D1DC2289F00704CE6 /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F221DC2289F00704CE6 /* CYLMineViewController.m */; };
+		ED872F2E1DC2289F00704CE6 /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F251DC2289F00704CE6 /* CYLDetailsViewController.m */; };
+		ED872F2F1DC2289F00704CE6 /* CYLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F271DC2289F00704CE6 /* CYLSameCityViewController.m */; };
+		ED872F301DC2289F00704CE6 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F2A1DC2289F00704CE6 /* CYLPlusButtonSubclass.m */; };
+		ED872F321DC228A900704CE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED872F311DC228A900704CE6 /* Images.xcassets */; };
+		ED872F361DC22BDB00704CE6 /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F351DC22BDB00704CE6 /* UINavigationController+Autorotate.m */; };
+		ED872F391DC22C8900704CE6 /* UITabBarController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F381DC22C8900704CE6 /* UITabBarController+Autorotate.m */; };
+		ED872F3C1DC22EAA00704CE6 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED872F3B1DC22EAA00704CE6 /* PlayerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED872EE61DC1EF2F00704CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED872EC41DC1EF2F00704CE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED872ECB1DC1EF2F00704CE6;
+			remoteInfo = FuckYouKu;
+		};
+		ED872EF11DC1EF2F00704CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED872EC41DC1EF2F00704CE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED872ECB1DC1EF2F00704CE6;
+			remoteInfo = FuckYouKu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1825666D4F80EBFB33B7D5E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E0AFB72D8534254FDA7DC6BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED872ECC1DC1EF2F00704CE6 /* FuckYouKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckYouKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED872ED01DC1EF2F00704CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED872ED21DC1EF2F00704CE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED872ED31DC1EF2F00704CE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED872ED51DC1EF2F00704CE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED872ED61DC1EF2F00704CE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED872ED91DC1EF2F00704CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED872EDB1DC1EF2F00704CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED872EDE1DC1EF2F00704CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED872EE01DC1EF2F00704CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED872EE51DC1EF2F00704CE6 /* FuckYouKuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckYouKuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED872EE91DC1EF2F00704CE6 /* FuckYouKuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckYouKuTests.m; sourceTree = "<group>"; };
+		ED872EEB1DC1EF2F00704CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED872EF01DC1EF2F00704CE6 /* FuckYouKuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckYouKuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED872EF41DC1EF2F00704CE6 /* FuckYouKuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckYouKuUITests.m; sourceTree = "<group>"; };
+		ED872EF61DC1EF2F00704CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED872F061DC2287B00704CE6 /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		ED872F071DC2287B00704CE6 /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		ED872F081DC2287B00704CE6 /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		ED872F091DC2287B00704CE6 /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		ED872F0A1DC2287B00704CE6 /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		ED872F0B1DC2287B00704CE6 /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		ED872F0C1DC2287B00704CE6 /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		ED872F0D1DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		ED872F0E1DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		ED872F131DC2288500704CE6 /* PorxyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorxyNavigationController.h; sourceTree = "<group>"; };
+		ED872F141DC2288500704CE6 /* PorxyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorxyNavigationController.m; sourceTree = "<group>"; };
+		ED872F161DC2288F00704CE6 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		ED872F1B1DC2289F00704CE6 /* CYLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		ED872F1C1DC2289F00704CE6 /* CYLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		ED872F1E1DC2289F00704CE6 /* CYLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMessageViewController.h; sourceTree = "<group>"; };
+		ED872F1F1DC2289F00704CE6 /* CYLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
+		ED872F211DC2289F00704CE6 /* CYLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMineViewController.h; sourceTree = "<group>"; };
+		ED872F221DC2289F00704CE6 /* CYLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMineViewController.m; sourceTree = "<group>"; };
+		ED872F241DC2289F00704CE6 /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
+		ED872F251DC2289F00704CE6 /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
+		ED872F261DC2289F00704CE6 /* CYLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLSameCityViewController.h; sourceTree = "<group>"; };
+		ED872F271DC2289F00704CE6 /* CYLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLSameCityViewController.m; sourceTree = "<group>"; };
+		ED872F291DC2289F00704CE6 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		ED872F2A1DC2289F00704CE6 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		ED872F311DC228A900704CE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED872F331DC2290F00704CE6 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYLTabBarControllerConfig.h; path = Classes/CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		ED872F341DC22BDB00704CE6 /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		ED872F351DC22BDB00704CE6 /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+		ED872F371DC22C8900704CE6 /* UITabBarController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Autorotate.h"; sourceTree = "<group>"; };
+		ED872F381DC22C8900704CE6 /* UITabBarController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Autorotate.m"; sourceTree = "<group>"; };
+		ED872F3A1DC22EAA00704CE6 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		ED872F3B1DC22EAA00704CE6 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		F5B636362AA5D3A9A685DBC5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED872EC91DC1EF2F00704CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863EA26182FC49389490D41 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EE21DC1EF2F00704CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EED1DC1EF2F00704CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C43631ADB50BCC80B16A264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B636362AA5D3A9A685DBC5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED872EC31DC1EF2F00704CE6 = {
+			isa = PBXGroup;
+			children = (
+				ED872F051DC2287B00704CE6 /* CYLTabBarController */,
+				ED872ECE1DC1EF2F00704CE6 /* FuckYouKu */,
+				ED872EE81DC1EF2F00704CE6 /* FuckYouKuTests */,
+				ED872EF31DC1EF2F00704CE6 /* FuckYouKuUITests */,
+				ED872ECD1DC1EF2F00704CE6 /* Products */,
+				F84D27D680DD41FDECC6085B /* Pods */,
+				0C43631ADB50BCC80B16A264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED872ECD1DC1EF2F00704CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED872ECC1DC1EF2F00704CE6 /* FuckYouKu.app */,
+				ED872EE51DC1EF2F00704CE6 /* FuckYouKuTests.xctest */,
+				ED872EF01DC1EF2F00704CE6 /* FuckYouKuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED872ECE1DC1EF2F00704CE6 /* FuckYouKu */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F311DC228A900704CE6 /* Images.xcassets */,
+				ED872F181DC2289F00704CE6 /* Classes */,
+				ED872F161DC2288F00704CE6 /* CYLTabBarControllerConfig.m */,
+				ED872F331DC2290F00704CE6 /* CYLTabBarControllerConfig.h */,
+				ED872F341DC22BDB00704CE6 /* UINavigationController+Autorotate.h */,
+				ED872F351DC22BDB00704CE6 /* UINavigationController+Autorotate.m */,
+				ED872F371DC22C8900704CE6 /* UITabBarController+Autorotate.h */,
+				ED872F381DC22C8900704CE6 /* UITabBarController+Autorotate.m */,
+				ED872ED21DC1EF2F00704CE6 /* AppDelegate.h */,
+				ED872ED31DC1EF2F00704CE6 /* AppDelegate.m */,
+				ED872ED51DC1EF2F00704CE6 /* ViewController.h */,
+				ED872ED61DC1EF2F00704CE6 /* ViewController.m */,
+				ED872ED81DC1EF2F00704CE6 /* Main.storyboard */,
+				ED872EDB1DC1EF2F00704CE6 /* Assets.xcassets */,
+				ED872EDD1DC1EF2F00704CE6 /* LaunchScreen.storyboard */,
+				ED872EE01DC1EF2F00704CE6 /* Info.plist */,
+				ED872ECF1DC1EF2F00704CE6 /* Supporting Files */,
+			);
+			path = FuckYouKu;
+			sourceTree = "<group>";
+		};
+		ED872ECF1DC1EF2F00704CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED872ED01DC1EF2F00704CE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED872EE81DC1EF2F00704CE6 /* FuckYouKuTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED872EE91DC1EF2F00704CE6 /* FuckYouKuTests.m */,
+				ED872EEB1DC1EF2F00704CE6 /* Info.plist */,
+			);
+			path = FuckYouKuTests;
+			sourceTree = "<group>";
+		};
+		ED872EF31DC1EF2F00704CE6 /* FuckYouKuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED872EF41DC1EF2F00704CE6 /* FuckYouKuUITests.m */,
+				ED872EF61DC1EF2F00704CE6 /* Info.plist */,
+			);
+			path = FuckYouKuUITests;
+			sourceTree = "<group>";
+		};
+		ED872F051DC2287B00704CE6 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F131DC2288500704CE6 /* PorxyNavigationController.h */,
+				ED872F141DC2288500704CE6 /* PorxyNavigationController.m */,
+				ED872F061DC2287B00704CE6 /* CYLConstants.h */,
+				ED872F071DC2287B00704CE6 /* CYLPlusButton.h */,
+				ED872F081DC2287B00704CE6 /* CYLPlusButton.m */,
+				ED872F091DC2287B00704CE6 /* CYLTabBar.h */,
+				ED872F0A1DC2287B00704CE6 /* CYLTabBar.m */,
+				ED872F0B1DC2287B00704CE6 /* CYLTabBarController.h */,
+				ED872F0C1DC2287B00704CE6 /* CYLTabBarController.m */,
+				ED872F0D1DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.h */,
+				ED872F0E1DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		ED872F181DC2289F00704CE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F191DC2289F00704CE6 /* Module */,
+				ED872F281DC2289F00704CE6 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED872F191DC2289F00704CE6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F1A1DC2289F00704CE6 /* Home */,
+				ED872F1D1DC2289F00704CE6 /* Message */,
+				ED872F201DC2289F00704CE6 /* Mine */,
+				ED872F231DC2289F00704CE6 /* SameCity */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		ED872F1A1DC2289F00704CE6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F1B1DC2289F00704CE6 /* CYLHomeViewController.h */,
+				ED872F1C1DC2289F00704CE6 /* CYLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ED872F1D1DC2289F00704CE6 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F1E1DC2289F00704CE6 /* CYLMessageViewController.h */,
+				ED872F1F1DC2289F00704CE6 /* CYLMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		ED872F201DC2289F00704CE6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F211DC2289F00704CE6 /* CYLMineViewController.h */,
+				ED872F221DC2289F00704CE6 /* CYLMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		ED872F231DC2289F00704CE6 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F3A1DC22EAA00704CE6 /* PlayerViewController.h */,
+				ED872F3B1DC22EAA00704CE6 /* PlayerViewController.m */,
+				ED872F241DC2289F00704CE6 /* CYLDetailsViewController.h */,
+				ED872F251DC2289F00704CE6 /* CYLDetailsViewController.m */,
+				ED872F261DC2289F00704CE6 /* CYLSameCityViewController.h */,
+				ED872F271DC2289F00704CE6 /* CYLSameCityViewController.m */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		ED872F281DC2289F00704CE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED872F291DC2289F00704CE6 /* CYLPlusButtonSubclass.h */,
+				ED872F2A1DC2289F00704CE6 /* CYLPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F84D27D680DD41FDECC6085B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFB72D8534254FDA7DC6BA /* Pods.debug.xcconfig */,
+				B1825666D4F80EBFB33B7D5E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED872ECB1DC1EF2F00704CE6 /* FuckYouKu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED872EF91DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKu" */;
+			buildPhases = (
+				0E8784AEC798E8D9AE6C1D5B /* Check Pods Manifest.lock */,
+				ED872EC81DC1EF2F00704CE6 /* Sources */,
+				ED872EC91DC1EF2F00704CE6 /* Frameworks */,
+				ED872ECA1DC1EF2F00704CE6 /* Resources */,
+				E0B75C0FA90F73A92200CF29 /* Embed Pods Frameworks */,
+				425538F6E709DE2EFCAD449C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckYouKu;
+			productName = FuckYouKu;
+			productReference = ED872ECC1DC1EF2F00704CE6 /* FuckYouKu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED872EE41DC1EF2F00704CE6 /* FuckYouKuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED872EFC1DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKuTests" */;
+			buildPhases = (
+				ED872EE11DC1EF2F00704CE6 /* Sources */,
+				ED872EE21DC1EF2F00704CE6 /* Frameworks */,
+				ED872EE31DC1EF2F00704CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED872EE71DC1EF2F00704CE6 /* PBXTargetDependency */,
+			);
+			name = FuckYouKuTests;
+			productName = FuckYouKuTests;
+			productReference = ED872EE51DC1EF2F00704CE6 /* FuckYouKuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED872EEF1DC1EF2F00704CE6 /* FuckYouKuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED872EFF1DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKuUITests" */;
+			buildPhases = (
+				ED872EEC1DC1EF2F00704CE6 /* Sources */,
+				ED872EED1DC1EF2F00704CE6 /* Frameworks */,
+				ED872EEE1DC1EF2F00704CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED872EF21DC1EF2F00704CE6 /* PBXTargetDependency */,
+			);
+			name = FuckYouKuUITests;
+			productName = FuckYouKuUITests;
+			productReference = ED872EF01DC1EF2F00704CE6 /* FuckYouKuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED872EC41DC1EF2F00704CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = RaulStudio;
+				TargetAttributes = {
+					ED872ECB1DC1EF2F00704CE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4794G6LFVV;
+						ProvisioningStyle = Automatic;
+					};
+					ED872EE41DC1EF2F00704CE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4794G6LFVV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED872ECB1DC1EF2F00704CE6;
+					};
+					ED872EEF1DC1EF2F00704CE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4794G6LFVV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED872ECB1DC1EF2F00704CE6;
+					};
+				};
+			};
+			buildConfigurationList = ED872EC71DC1EF2F00704CE6 /* Build configuration list for PBXProject "FuckYouKu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED872EC31DC1EF2F00704CE6;
+			productRefGroup = ED872ECD1DC1EF2F00704CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED872ECB1DC1EF2F00704CE6 /* FuckYouKu */,
+				ED872EE41DC1EF2F00704CE6 /* FuckYouKuTests */,
+				ED872EEF1DC1EF2F00704CE6 /* FuckYouKuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED872ECA1DC1EF2F00704CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED872EDF1DC1EF2F00704CE6 /* LaunchScreen.storyboard in Resources */,
+				ED872F321DC228A900704CE6 /* Images.xcassets in Resources */,
+				ED872EDC1DC1EF2F00704CE6 /* Assets.xcassets in Resources */,
+				ED872EDA1DC1EF2F00704CE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EE31DC1EF2F00704CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EEE1DC1EF2F00704CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8784AEC798E8D9AE6C1D5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		425538F6E709DE2EFCAD449C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B75C0FA90F73A92200CF29 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED872EC81DC1EF2F00704CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED872F171DC2288F00704CE6 /* CYLTabBarControllerConfig.m in Sources */,
+				ED872ED71DC1EF2F00704CE6 /* ViewController.m in Sources */,
+				ED872ED41DC1EF2F00704CE6 /* AppDelegate.m in Sources */,
+				ED872F111DC2287B00704CE6 /* CYLTabBarController.m in Sources */,
+				ED872F2C1DC2289F00704CE6 /* CYLMessageViewController.m in Sources */,
+				ED872F0F1DC2287B00704CE6 /* CYLPlusButton.m in Sources */,
+				ED872F151DC2288500704CE6 /* PorxyNavigationController.m in Sources */,
+				ED872F2B1DC2289F00704CE6 /* CYLHomeViewController.m in Sources */,
+				ED872F101DC2287B00704CE6 /* CYLTabBar.m in Sources */,
+				ED872F301DC2289F00704CE6 /* CYLPlusButtonSubclass.m in Sources */,
+				ED872F121DC2287B00704CE6 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				ED872F361DC22BDB00704CE6 /* UINavigationController+Autorotate.m in Sources */,
+				ED872F2F1DC2289F00704CE6 /* CYLSameCityViewController.m in Sources */,
+				ED872F2D1DC2289F00704CE6 /* CYLMineViewController.m in Sources */,
+				ED872F391DC22C8900704CE6 /* UITabBarController+Autorotate.m in Sources */,
+				ED872F2E1DC2289F00704CE6 /* CYLDetailsViewController.m in Sources */,
+				ED872ED11DC1EF2F00704CE6 /* main.m in Sources */,
+				ED872F3C1DC22EAA00704CE6 /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EE11DC1EF2F00704CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED872EEA1DC1EF2F00704CE6 /* FuckYouKuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED872EEC1DC1EF2F00704CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED872EF51DC1EF2F00704CE6 /* FuckYouKuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED872EE71DC1EF2F00704CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED872ECB1DC1EF2F00704CE6 /* FuckYouKu */;
+			targetProxy = ED872EE61DC1EF2F00704CE6 /* PBXContainerItemProxy */;
+		};
+		ED872EF21DC1EF2F00704CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED872ECB1DC1EF2F00704CE6 /* FuckYouKu */;
+			targetProxy = ED872EF11DC1EF2F00704CE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED872ED81DC1EF2F00704CE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED872ED91DC1EF2F00704CE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED872EDD1DC1EF2F00704CE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED872EDE1DC1EF2F00704CE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED872EF71DC1EF2F00704CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED872EF81DC1EF2F00704CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED872EFA1DC1EF2F00704CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AFB72D8534254FDA7DC6BA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuckYouKu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED872EFB1DC1EF2F00704CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1825666D4F80EBFB33B7D5E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuckYouKu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED872EFD1DC1EF2F00704CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				INFOPLIST_FILE = FuckYouKuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckYouKu.app/FuckYouKu";
+			};
+			name = Debug;
+		};
+		ED872EFE1DC1EF2F00704CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				INFOPLIST_FILE = FuckYouKuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckYouKu.app/FuckYouKu";
+			};
+			name = Release;
+		};
+		ED872F001DC1EF2F00704CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				INFOPLIST_FILE = FuckYouKuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuckYouKu;
+			};
+			name = Debug;
+		};
+		ED872F011DC1EF2F00704CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4794G6LFVV;
+				INFOPLIST_FILE = FuckYouKuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulista.FuckYouKuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuckYouKu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED872EC71DC1EF2F00704CE6 /* Build configuration list for PBXProject "FuckYouKu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED872EF71DC1EF2F00704CE6 /* Debug */,
+				ED872EF81DC1EF2F00704CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED872EF91DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED872EFA1DC1EF2F00704CE6 /* Debug */,
+				ED872EFB1DC1EF2F00704CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED872EFC1DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED872EFD1DC1EF2F00704CE6 /* Debug */,
+				ED872EFE1DC1EF2F00704CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED872EFF1DC1EF2F00704CE6 /* Build configuration list for PBXNativeTarget "FuckYouKuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED872F001DC1EF2F00704CE6 /* Debug */,
+				ED872F011DC1EF2F00704CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED872EC41DC1EF2F00704CE6 /* Project object */;
+}

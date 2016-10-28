@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge" "${PODS_ROOT}/Headers/Public/YouTuEngineMediaPlayer"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/YouTuEngineMediaPlayer/YKMediaPlayerDemo/YouTuEngineMediaPlayer"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge" -isystem "${PODS_ROOT}/Headers/Public/YouTuEngineMediaPlayer"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WebViewJavascriptBridge" -l"YouTuMediaPlayerEngineYouku" -l"bz2" -l"c++" -l"iconv" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -framework "AdSupport" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreText" -framework "EventKit" -framework "Foundation" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "ModelIO" -framework "OpenGLES" -framework "PassKit" -framework "QuartzCore" -framework "Social" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox"
+PODS_ROOT = ${SRCROOT}/Pods
